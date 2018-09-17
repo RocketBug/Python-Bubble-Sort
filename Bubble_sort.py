@@ -1,7 +1,6 @@
 import random
 import math
 # Program for bubble sort
-"""
 numList = []
 
 for i in range(5):
@@ -40,19 +39,3 @@ print("")
 print("List of sorted numbers: ")
 for i in numList:
     print(i, end=" ")
-
-"""
-
-# Multiplication table
-"""
-multi_table = [[0] * 9 for i in range(9)]
-
-for i in range(0, 9):
-    for j in range(0, 9):
-        multi_table[i][j] = (i+1)*(j+1)
-
-for i in range(9):
-    for j in range(9):
-        print(multi_table[i][j], end=",")
-    print()
-"""
